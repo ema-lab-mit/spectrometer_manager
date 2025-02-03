@@ -1,0 +1,14 @@
+README.md
+setup.py
+scripts/__init__.py
+scripts/example_reader.py
+scripts/run_server.py
+scripts/simple_reading.py
+spectr_reader.egg-info/PKG-INFO
+spectr_reader.egg-info/SOURCES.txt
+spectr_reader.egg-info/dependency_links.txt
+spectr_reader.egg-info/requires.txt
+spectr_reader.egg-info/top_level.txt
+src/__init__.py
+src/server.py
+tests/test_measurements.py

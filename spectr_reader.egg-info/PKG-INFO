@@ -1,0 +1,7 @@
+Metadata-Version: 2.2
+Name: spectr_reader
+Version: 1.0
+Summary: EMALAB Spectrometer Manager
+Requires-Dist: pyepics
+Dynamic: requires-dist
+Dynamic: summary
