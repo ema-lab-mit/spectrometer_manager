@@ -43,4 +43,17 @@
     cd spectrometer_manager
     python ./pyrgbdriverkit-0.3.7/setup.py install
     ```
-# spectrometer_manager
+
+### Common issues
+
+- If windows updated, just pray and hope for the best.
+- If you want to attach the USB-c back to the windows to use the software, do:
+    ```
+    usbipd unbind --busid 3-1
+    ```
+- To bind the usb-c again:
+    ```
+    usbipd bind --busid 3-1
+    usbipd attach --wsl --busid 3-1 
+    ```
+
